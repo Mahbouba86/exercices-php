@@ -9,3 +9,15 @@
 // sinon
 //   afficher c
 
+$number1 = 10; 
+$number2 = 15;
+$number3 = 20; 
+
+if ($number1 > $number2 && $number1 > $number3) 
+{ echo "Le plus grand nombre est : $number1\n"; } 
+elseif ($number2 > $number1 && $number2 > $number3)
+{ echo "Le plus grand nombre est : $number2\n"; } 
+else {
+    echo "Le plus grand nombre est : $number3\n";
+}
+?>

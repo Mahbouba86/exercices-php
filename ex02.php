@@ -7,3 +7,16 @@
 //     afficher i
 // fin
 
+$min = 0;
+$max = 20;
+
+$chiffresPairs = '';
+
+for ($i = $min; $i <= $max; $i++) {
+    if ( $i % 2 == 0 ) {
+        $chiffresPairs .= $i.' ';
+    }
+}
+
+echo 'Les chiffres pairs compris entre 0 et 20 sont: '.$chiffresPairs;
+?>

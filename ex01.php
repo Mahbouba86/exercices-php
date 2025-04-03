@@ -6,3 +6,14 @@
 //   afficher i
 // fin
 
+
+
+$min = 1;
+$max = 10;
+
+echo "Les chiffres compris entre $min et $max sont: ";
+
+for ($i = $min; $i < $max; $i++) {
+    echo $i . " ";
+}
+// ?>

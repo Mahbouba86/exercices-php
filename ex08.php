@@ -6,3 +6,5 @@
 //   concaténer caractère à une nouvelle chaîne
 // afficher la nouvelle chaîne
 
+echo strrev("Hello world!"); 
+?>

@@ -7,3 +7,9 @@
 //   fact *= i
 // afficher fact
 
+function factorial($n) { $res = 1; for ($i = 2; $i <= $n; $i++) 
+    { $res *= $i; } 
+    return $res; } 
+    $num = 5; 
+    echo "La factorielle de $num est : " . factorial($num);
+    ?>

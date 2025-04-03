@@ -8,3 +8,11 @@
 // sinon
 //   afficher 'non'
 
+$mot = 'kayak';
+$mot_inverse = strrev($mot); 
+    if ($mot === $mot_inverse) {
+        echo "palindrome";
+    } else {
+        echo "non";
+    }
+
